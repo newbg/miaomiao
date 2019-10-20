@@ -1,9 +1,21 @@
 <template>
-    <div>Hello Mine</div>
+    <div>
+        <Header title="我的喵喵"></Header>
+        <TabBar></TabBar>
+    </div>
 </template>
 
 <script>
-export default {};
+import Header from "@/components/Header";
+import TabBar from "@/components/TabBar";
+
+export default {
+  name: "Mine",
+  components: {
+    Header,
+    TabBar
+  }
+};
 </script>
 
 <style>
